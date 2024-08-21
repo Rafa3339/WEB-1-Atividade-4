@@ -138,13 +138,14 @@ textarea {
     border-radius: 10px;
     background-color: red;
     border: none;
-    box-shadow: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .botao button:hover {
     background-color: black;
     color: white;
-    transition: 0.4s;
+    transition: background-color 0.4s, color 0.4s, box-shadow 0.4s;
 }
+
 /*Fontes*/
 .noto-serif-1 {
     font-family: "Noto Serif", serif;
