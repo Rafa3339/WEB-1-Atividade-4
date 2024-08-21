@@ -116,6 +116,7 @@ input {
 .check .nao-clicavel {
     pointer-events: none;
 }
+
 select {
     width: 93%;
 }
