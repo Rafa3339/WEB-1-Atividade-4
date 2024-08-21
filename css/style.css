@@ -89,7 +89,6 @@ main {
     word-wrap: break-word;
     overflow-wrap: break-word;
     width: calc(100% - 100px);
-
 }
 footer {
     display: flex;
@@ -106,6 +105,7 @@ footer {
 }
 input {
     width: 100%;
+    margin: 3px;
 }
 .check {
     display: flex;
@@ -116,7 +116,11 @@ input {
 .check .nao-clicavel {
     pointer-events: none;
 }
-
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 select {
     width: 93%;
 }
