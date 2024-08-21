@@ -100,7 +100,46 @@ footer {
     padding: 10px;
     width: 100%;
 }
-
+.margem {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+}
+.check {
+    display: flex;
+    width: 15%;
+    margin: 5px;
+    justify-self: left;
+}
+.check .nao-clicavel {
+    pointer-events: none;
+}
+select {
+    width: 93%;
+}
+textarea {
+    width: 93%;
+    height: 80px;
+}
+.botao {
+    margin-top: 20px;
+    width: 100px;
+}
+.botao button {
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    box-shadow: 10px;
+}
+.botao button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
 /*Fontes*/
 .noto-serif-1 {
     font-family: "Noto Serif", serif;
