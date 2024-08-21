@@ -57,12 +57,14 @@ main {
 }
 .content {
     margin: 20px;
+    padding-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(255, 50, 50);
     width: 75%;
     height: 100%;
+    border-radius: 10px;
 }
 .titulo {
     display: flex;
@@ -95,13 +97,28 @@ footer {
 }
 
 /*Fontes*/
+.noto-serif-1 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
   }
-.bungee-tint-regular {
-    font-family: "Bungee Tint", sans-serif;
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+  }
+.oswald-1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
+  }
